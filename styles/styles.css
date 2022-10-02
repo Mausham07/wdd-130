@@ -1,0 +1,23 @@
+/*changing for the class named para*/
+.para{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*changing the font of p tag*/
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    background-color: steelblue;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#active{
+    background-color: white;
+    color: steelblue;
+}
