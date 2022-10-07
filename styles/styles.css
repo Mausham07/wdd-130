@@ -2,11 +2,17 @@
 .para{
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
+    margin: 20px auto;
+    line-height: 1.5em;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
 }
 
 /*changing the font of p tag*/
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 a{
@@ -17,7 +23,38 @@ a{
     text-decoration: none;
 }
 
-#active{
+#active, a:hover{
     background-color: white;
     color: steelblue;
 }
+
+img{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+
+h1{
+    color: steelblue;
+    text-align: center;
+}
+
+nav{
+    background-color: steelblue;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.25em;
+    padding: 20px;
+
+}
+
+footer{
+    background-color: steelblue;
+    color: white;
+}
+
