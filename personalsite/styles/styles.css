@@ -347,7 +347,7 @@ footer{
 .membership_text:hover{
     color: #3A3042;
     font-weight: bolder;
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 #intro img{
@@ -359,7 +359,7 @@ footer{
 
 #intro img:hover{
     opacity: 0.6;
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 #intro_two{
@@ -399,7 +399,7 @@ footer{
     background-color: #FF784F;
     color: black;
     font-style: italic;
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 .package{
@@ -418,7 +418,7 @@ footer{
 
 #silver:hover{
     background-color: silver;
-    scale: 1.1;
+    transform: scale(1.1);
     color: #3A3042;
 }
 
@@ -435,7 +435,7 @@ h2, h4, .benefit{
 
 #gold:hover{
     background-color: gold;
-    scale: 1.1;
+    transform: scale(1.1);
     color: black;
 
 }
@@ -449,6 +449,6 @@ h2, h4, .benefit{
 
 #platinum:hover{
     background-color:#E5E4E2;
-    scale: 1.1;
+    transform: scale(1.1);
     color: #3A3042;
 }
