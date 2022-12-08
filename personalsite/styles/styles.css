@@ -247,6 +247,10 @@ footer{
     text-align: justify;
 }
 
+#first_one img{
+    height: 267px;
+}
+
 #second_one{
     grid-column: 5/6;
     text-align: center;
@@ -304,4 +308,147 @@ footer{
 #sixth_one{
     grid-column: 8/9;
     text-align: center;
+}
+
+
+
+/* Membership page CSS */
+
+.membership_main p{
+    text-align: center;
+    margin: 40px;
+    font-family: "Noto Sans JP";
+    font-weight: bolder;
+    color: #3A3042;
+    border-bottom: 2px solid #FF784F;
+    border-top: 2px solid #FF784F;
+    padding: 20px;
+}
+
+.membership_main p:hover{
+    color: #FF784F;
+    font-style: italic;
+    border-bottom: 2px solid #3A3042;
+    border-top: 2px solid #3A3042;
+}
+
+#intro{
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr 3fr 2fr;
+}
+
+.membership_text{
+    grid-column: 2/3;
+    border: 2px solid #FF784F;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.membership_text:hover{
+    color: #3A3042;
+    font-weight: bolder;
+    scale: 1.1;
+}
+
+#intro img{
+    grid-column: 4/5;
+    height: 280px;
+    border: 4px solid #3A3042;
+    margin-top: 18px;
+}
+
+#intro img:hover{
+    opacity: 0.6;
+    scale: 1.1;
+}
+
+#intro_two{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    margin-top: 70px;
+}
+
+#intro_two #pic{
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#intro_two img{
+    width: 1600px;
+    
+}
+
+#intro_two .button{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    align-self: center;
+}
+
+#intro_two .button a{
+    text-decoration: none;
+    color: white;
+    background-color: #3A3042;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#intro_two .button a:hover{
+    background-color: #FF784F;
+    color: black;
+    font-style: italic;
+    scale: 1.1;
+}
+
+.package{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#silver{
+    grid-column: 2/3;
+    border: 2px solid silver;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#silver:hover{
+    background-color: silver;
+    scale: 1.1;
+    color: #3A3042;
+}
+
+h2, h4, .benefit{
+    text-align: center;
+}
+
+#gold{
+    grid-column: 4/5;
+    border: 2px solid gold;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#gold:hover{
+    background-color: gold;
+    scale: 1.1;
+    color: black;
+
+}
+
+#platinum{
+    grid-column: 6/7;
+    border: 2px solid #E5E4E2;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#platinum:hover{
+    background-color:#E5E4E2;
+    scale: 1.1;
+    color: #3A3042;
 }
